@@ -581,3 +581,32 @@ button {
     font-size: 19px;
   }
 }
+
+.update-section {
+  margin-bottom: 25px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.035);
+}
+
+.update-section h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.update-section p {
+  color: #9999a8;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .update-section {
+    padding: 18px;
+  }
+
+  .update-section h2 {
+    font-size: 17px;
+  }
+}
